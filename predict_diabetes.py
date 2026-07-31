@@ -67,7 +67,9 @@ with st.sidebar:
 # ── Load saved model and scaler ──
 model = joblib.load('diabetes_model.pkl')
 scaler = joblib.load('diabetes_scaler.pkl')
-
+# git remote add origin https://github.com/timdav-tech/diabetes-prediction-system.git#
+git branch -M main
+git push -u origin main
 
 st.title("🩺 Diabetes Risk Prediction System")
 
