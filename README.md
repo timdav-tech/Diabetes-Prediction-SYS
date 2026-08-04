@@ -50,6 +50,7 @@ Outcome
 
 ## Project Structure
 ├── .devcontainer/                 # Development container configuration
+
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Python dependencies
 ├── predict-diabetes_app.py        # Streamlit web application
