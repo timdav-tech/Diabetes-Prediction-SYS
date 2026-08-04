@@ -49,13 +49,16 @@ Outcome
 
 
 ## Project Structure
-.
-├──
-├── FirstML.ipynb              # Data analysis, preprocessing, training and evaluation
-├── predict_diabetes.ipynb     # Predict diabetes using the trained model
-├── diabetes_model.pkl         # Saved machine learning model
-├── diabetes_scaler.pkl        # Saved StandardScaler
-└── README.md
+├── .devcontainer/                 # Development container configuration
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
+├── predict-diabetes_app.py        # Streamlit web application
+├── predict_patient.ipynb          # Data preprocessing, model training, evaluation, and testing
+├── diabetes_model.pkl             # Trained machine learning model
+├── diabetes_scaler.pkl            # Saved StandardScaler for preprocessing
+├── confusion_matrix.png           # Model evaluation visualization
+├── feature_importance.png         # Feature importance visualization
+```
 
 ## Model Workflow
 1. Load the dataset.
