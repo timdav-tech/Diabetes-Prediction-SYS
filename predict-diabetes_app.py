@@ -241,3 +241,5 @@ This tool is intended for educational purposes only and does not replace profess
 st.markdown("[GitHub Repo](https://github.com/timdav-tech/Diabetes-Prediction-SYS.git)")
 
 
+#git commit -m "Add current project files"
+#git push -u origin main
