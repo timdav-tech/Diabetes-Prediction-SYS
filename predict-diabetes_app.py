@@ -67,9 +67,7 @@ with st.sidebar:
 # ── Load saved model and scaler ──
 model = joblib.load('diabetes_model.pkl')
 scaler = joblib.load('diabetes_scaler.pkl')
-# git remote add origin https://github.com/timdav-tech/diabetes-prediction-system.git#
-git branch -M main
-git push -u origin main
+
 
 st.title("🩺 Diabetes Risk Prediction System")
 
@@ -227,7 +225,7 @@ if submitted:
 
 
 
-st.divider()
+st.divider() 
 
 st.caption("""
 Developed by ** Timothy Folorunsho **
@@ -236,5 +234,10 @@ Machine Learning Engineer | Mobile App Developer | Mechatronics Engineering Stud
 
 📧 timothyfolorunsho995@gmail.com
 
+
 This tool is intended for educational purposes only and does not replace professional medical diagnosis.
 """)
+
+st.markdown("[GitHub Repo](https://github.com/timdav-tech/Diabetes-Prediction-SYS.git)")
+
+
